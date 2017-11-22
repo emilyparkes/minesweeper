@@ -5,14 +5,17 @@ var board = {
   cells: []
 }
 
-function makeBoard (size) {
-  for (i = 0; i <= size; i++) {
-    for (j = 0; i<= size; j++) {
-      board.cells.push (
-        {row:i,
+function makeBoard(size){
+  for(i = 0; i <= size; i++){
+    for (j=0;j<=size; j++){
+    board.cells.push(
+      {row:i,
         col:j,
-      }
-      )
+        isMine:Math.random() < 0.2,
+        hidden:true,
+        isMarked:false,
+        surroundingMines:0
+      })
     }
   }
 }
