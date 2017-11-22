@@ -8,7 +8,11 @@ var board = {
 function makeBoard (size) {
   for (i = 0; i <= size; i++) {
     for (j = 0; i<= size; j++) {
-
+      board.cells.push (
+        {row:i,
+        col:j,
+      }
+      )
     }
   }
 }
