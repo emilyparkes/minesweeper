@@ -5,6 +5,14 @@ var board = {
   cells: [{row:i, col:j}]
 }
 
+function makeBoard (size) {
+  for (i = 0; i <= size; i++) {
+    for (j = 0; i<= size; j++) {
+      
+    }
+  }
+}
+
 function startGame () {
   // Don't remove this function call: it makes the game work!
   lib.initBoard()
