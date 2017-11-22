@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', startGame)
 
 // Define your `board` object here!
 var board = {
-  cells: [{row:i, col:j}]
+  cells: []
 }
 
 function makeBoard (size) {
   for (i = 0; i <= size; i++) {
     for (j = 0; i<= size; j++) {
-      
+
     }
   }
 }
